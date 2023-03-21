@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.saucedemo.TestPack.TC0001_VerifyloginFunctionality"/>
+      <class name="com.saucedemo.TestPack.TC0002_VreifyBagProductAddtoCartFunctionality"/>
+      <class name="com.saucedemo.TestPack.TC004_VerifyLogoutFunctionality"/>
+      <class name="com.saucedemo.TestPack.TC003_VerifyAllProAddtoCartFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
